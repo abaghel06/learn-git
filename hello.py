@@ -1,3 +1,5 @@
 # learn git
+import myname
 
-print("Hello, World!")
+name = myname.get_name()
+print("hello, {}". format(name))
